@@ -10,7 +10,7 @@ export class ApiService {
   private _http = inject(HttpClient);
   private urlBase: string = 'https://fakestoreapi.com/products';
 
-  getAllProducts(): Observable<IProduct> {
-    return this._http.get<IProduct>(this.urlBase);
+  getAllProducts(): Observable<IProduct[]> {
+    return this._http.get<IProduct[]>(this.urlBase);
   }
 }

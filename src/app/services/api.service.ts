@@ -13,4 +13,8 @@ export class ApiService {
   getAllProducts(): Observable<IProduct[]> {
     return this._http.get<IProduct[]>(this.urlBase);
   }
+
+  getProductById(id: number): Observable<IProduct> {
+    return this._http.get<IProduct>(`${this.urlBase}/${id}`);
+  }
 }

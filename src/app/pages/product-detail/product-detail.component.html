@@ -1,1 +1,23 @@
-<p>product-detail works!</p>
+<div class="container">
+  @if (loading) {
+  <h5>Loading...</h5>
+  } @if (!loading){
+  <div class="p-5">
+    <button type="button" (click)="back()"  class="btn btn-success">Back</button>
+    <div class="p-3 m-5 d-flex align-items-center">
+      <img
+        src="{{ product?.image }}"
+        alt="{{ product?.title }}"
+        style="width: 30%"
+      />
+
+      <div class="flex-grow-1 ms-3">
+        <h3 class="card-title">{{ product?.title }}</h3>
+        <h4>Price: {{ product?.price | currency }}</h4>
+
+        <p class="card-text">Description: {{ product?.description }}</p>
+      </div>
+    </div>
+  </div>
+  }
+</div>

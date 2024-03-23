@@ -1,27 +1,30 @@
-# LandingPageLV
+# Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+This project is a store of different products, using the new features that Angular 17 brings.
 
-## Development server
+## Project description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Store of different products such as clothing, jewelry, electronics.
 
-## Code scaffolding
+## 📁 Project access
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- $ git clone https://github.com/JKarina-code/landingPageLV.git
+- $ cd ../path/to/the/file
 
-## Build
+## 🛠️ Used technology
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [CSS](https://www.w3schools.com/Css/)
+- [HTML](https://www.w3schools.com/html/)
+- [Angular](https://angular.dev/overview)
+- [Node](https://nodejs.org/en)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Git](https://git-scm.com/docs)
 
-## Running unit tests
+## Project
+![landing-home](https://github.com/JKarina-code/landingPageLV/assets/29663094/6364c95f-8877-4103-8a44-89b2b1ee0e93)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![landing-products](https://github.com/JKarina-code/landingPageLV/assets/29663094/8a4c1e3a-c59f-4afe-ab98-d41371ae024f)
 
-## Running end-to-end tests
+![landing-product-detail](https://github.com/JKarina-code/landingPageLV/assets/29663094/f89ed769-2f64-40eb-89ff-ffbe6e56df74)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![landing-contact](https://github.com/JKarina-code/landingPageLV/assets/29663094/b53d8531-a6e8-4e0d-a0b1-5c4ffbdb4150)
